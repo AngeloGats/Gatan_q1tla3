@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    background-color: #4f2e54;
+}
+
+/* Leftlinks and Rightlinks combined*/
+.leftlinks ul li, .rightlinks ul li, .rightlinks1 ul li, .bigbuttons{
+    display: inline;
+    margin-left: 4vh;
+}
+.leftlinks, .rightlinks, .rightlinks1, .bigbuttons {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin-top: 1vh;
+    padding: 1vw;
+    display: inline-block;
+
+}
+.leftlinks ul li a, .rightlinks1 ul li a, .SaleSlop{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    height: 100%;
+    position: relative;
+    bottom: 15vh;
+}
+.TrySlop {
+    text-decoration: none;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 15vh;    
+}
+    
+/* Leftlinks and Rightlinks combined*/
+
+/* Leftlinks*/
+.leftlinks{
+    position: relative;
+    left: 120px;
+}
+/* Leftlinks*/
+
+/* Rightlinks*/
+.rightlinks, .rightlinks1{
+    bottom: 4vh;
+    float:right;
+
+}
+.rightlinks ul li a{
+    
+    font-weight: bold;
+    font-size: 16px;
+    text-indent: 6vh;
+    border: #fff solid 2px;
+    border-radius: 8px;
+    padding: 12px 32px;
+
+
+}
+
+.TrySlop{
+      background-color: white;
+
+}
+
+/*Rightlinks*/
+
+.logo {
+    text-align: left;
+}
+header{
+    background-color: #4f2e54;
+    height: 2vh;
+}
+section {
+    background-color:#4f2e54;
+}
+/* Slop Logo */
+.SlopLogo{
+    position: relative;
+    top:1vh;
+    right: 1vh;
+}
+.SLOP  {
+    font-family: 'bombardier';
+    font-size: 6vh;
+    color: white;
+    position: relative;
+    bottom: 55px;
+    left: 75px;
+}
+.SlopTop{
+    width: 70px;
+    height: auto;
+    position: relative;
+    left: 20px;
+}
+
+.slopText {
+    margin: 0px;;
+    padding: 0;
+    margin-bottom: 0px;
+    position: relative;
+    top: 100px;
+}
+.SearchTop{
+    position: fixed;
+    top:3.5vh;
+    right: 71vh;
+    width: 6vh;    
+}
+.SlopPNG {
+    position: relative;
+    width: 80px;  
+    height: 80px;  
+}
+
+.SlopPNG img {
+    
+    width: 90vh;   
+    height: auto;
+    position: absolute;
+    top: -5vh;
+    left: 0;
+    border: 1vh solid #a86cb0;
+    border-radius: 2vh;
+}
+
+.madeSlop, .builtSlop{
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 10vh;
+}
+.madeSlop{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 5vh;
+    left: 5vh;
+}
+
+.builtSlop{
+    color:#a86cb0;
+    position: absolute;
+    top: 15vh;
+    left: 5vh;
+}
+
+.connectSlop{
+    font-family: 'Montserrat', Arial, sans-serif;
+    max-width: 650px;      
+    margin: -12vh 0vh 0 5vh; 
+    font-size: 1.5rem;     
+    line-height: 1.5;      
+    color: #ffffff;           
+    position: absolute;
+    top:40vh;      
+}
+
+.SlopPNG .Slop2 {
+    left: 100vh;    
+    top: 30vh;     
+    z-index: 2;    
+}
+
+.SlopPNG .Slop1 {
+    left: 120vh; 
+    top: 10vh;  
+    z-index: 2; 
+}
+
+.SlopPNG .Slop3 {
+    left: 120vh; 
+    top: 50vh;  
+    z-index: 2;
+} 
+
+
+.bigbuttons ul {
+    font-family: 'Montserrat', Arial, sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 45vh 0 0vh -1vh;
+    display: flex;
+    gap: 24px;
+    justify-content: flex-start;
+}
+
+.bigbuttons li {
+    display: inline-block;
+}
+
+.emailSlop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 340px;
+    padding: 24px 32px;
+    background: #fff;
+    color: #634B66;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.googleSlop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 340px;
+    padding: 24px 32px;
+    background: #4285F4;
+    color: #fff;
+    border: 3px solid #4285F4;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.freeSlop{
+    font-family: 'Montserrat', Arial, sans-serif;      
+    margin: 17vh 0 0 5vh; 
+    font-size: 1.5rem;     
+    line-height: 1.5;      
+    color: #fff;           
+    position: absolute;
+    top:40vh;      
+}
